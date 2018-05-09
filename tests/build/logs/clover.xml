@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1525872963">
+  <project timestamp="1525872963">
+    <package name="Pds\Skeleton">
+      <file name="/home/sasha/tutu/tutu-logic-tasks/src/Console.php">
+        <class name="Pds\Skeleton\Console" namespace="Pds\Skeleton">
+          <metrics complexity="6" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="0" elements="26" coveredelements="0"/>
+        </class>
+        <line num="12" type="method" name="execute" visibility="public" complexity="3" crap="12.00" count="0"/>
+        <line num="13" type="stmt" count="0"/>
+        <line num="14" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="31" type="method" name="executeCommand" visibility="protected" complexity="1" crap="2.00" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="37" type="method" name="outputHelp" visibility="protected" complexity="2" crap="6.00" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="40" type="stmt" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <metrics loc="44" ncloc="44" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="0" elements="26" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="SashaMart\TutuLogicTasks">
+      <file name="/home/sasha/tutu/tutu-logic-tasks/src/HipstersTask.php">
+        <class name="SashaMart\TutuLogicTasks\HipstersTask" namespace="SashaMart\TutuLogicTasks">
+          <metrics complexity="9" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="12" elements="21" coveredelements="13"/>
+        </class>
+        <line num="6" type="method" name="execute" visibility="public" complexity="4" crap="4.25" count="1"/>
+        <line num="8" type="stmt" count="1"/>
+        <line num="9" type="stmt" count="0"/>
+        <line num="10" type="stmt" count="1"/>
+        <line num="11" type="stmt" count="0"/>
+        <line num="13" type="stmt" count="1"/>
+        <line num="14" type="stmt" count="1"/>
+        <line num="15" type="stmt" count="1"/>
+        <line num="17" type="stmt" count="1"/>
+        <line num="25" type="method" name="distributeSmoothies" visibility="public" complexity="3" crap="3" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="31" type="stmt" count="1"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="35" type="stmt" count="1"/>
+        <line num="39" type="method" name="_setNumber" visibility="private" complexity="2" crap="6.00" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <metrics loc="46" ncloc="41" classes="1" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="12" elements="21" coveredelements="13"/>
+      </file>
+    </package>
+    <metrics files="2" loc="90" ncloc="85" classes="2" methods="6" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="41" coveredstatements="12" elements="47" coveredelements="13"/>
+  </project>
+</coverage>

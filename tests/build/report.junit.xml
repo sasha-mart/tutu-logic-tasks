@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="converter" tests="1" assertions="2" errors="0" failures="0" skipped="0" time="0.013229">
+    <testsuite name="SashaMart\TutuLogicTasks\HipstersTest" file="/home/sasha/tutu/tutu-logic-tasks/tests/HipstersTest.php" tests="1" assertions="2" errors="0" failures="0" skipped="0" time="0.013229">
+      <testcase name="testDistributeSmoothies" class="SashaMart\TutuLogicTasks\HipstersTest" classname="SashaMart.TutuLogicTasks.HipstersTest" file="/home/sasha/tutu/tutu-logic-tasks/tests/HipstersTest.php" line="8" assertions="2" time="0.013229">
+        <system-out>Результат: по 2 смузи на одного хипстера.
+Смузи меньше, чем хипстеров. Придется выбросить всё, чтобы никого не обидеть.
+</system-out>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testsuites>
