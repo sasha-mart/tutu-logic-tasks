@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="converter" tests="1" assertions="2" errors="0" failures="0" skipped="0" time="0.013229">
-    <testsuite name="SashaMart\TutuLogicTasks\HipstersTest" file="/home/sasha/tutu/tutu-logic-tasks/tests/HipstersTest.php" tests="1" assertions="2" errors="0" failures="0" skipped="0" time="0.013229">
-      <testcase name="testDistributeSmoothies" class="SashaMart\TutuLogicTasks\HipstersTest" classname="SashaMart.TutuLogicTasks.HipstersTest" file="/home/sasha/tutu/tutu-logic-tasks/tests/HipstersTest.php" line="8" assertions="2" time="0.013229">
+  <testsuite name="converter" tests="2" assertions="9" errors="0" failures="0" skipped="0" time="0.030808">
+    <testsuite name="SashaMart\TutuLogicTasks\HipstersTest" file="/home/sasha/tutu/tutu-logic-tasks/tests/HipstersTest.php" tests="1" assertions="2" errors="0" failures="0" skipped="0" time="0.008551">
+      <testcase name="testDistributeSmoothies" class="SashaMart\TutuLogicTasks\HipstersTest" classname="SashaMart.TutuLogicTasks.HipstersTest" file="/home/sasha/tutu/tutu-logic-tasks/tests/HipstersTest.php" line="8" assertions="2" time="0.008551">
         <system-out>Результат: по 2 смузи на одного хипстера.
 Смузи меньше, чем хипстеров. Придется выбросить всё, чтобы никого не обидеть.
+</system-out>
+      </testcase>
+    </testsuite>
+    <testsuite name="SashaMart\TutuLogicTasks\HoardTest" file="/home/sasha/tutu/tutu-logic-tasks/tests/HoardTest.php" tests="1" assertions="7" errors="0" failures="0" skipped="0" time="0.022257">
+      <testcase name="testExecute" class="SashaMart\TutuLogicTasks\HoardTest" classname="SashaMart.TutuLogicTasks.HoardTest" file="/home/sasha/tutu/tutu-logic-tasks/tests/HoardTest.php" line="8" assertions="7" time="0.022257">
+        <system-out>Если можно взять не более одного камня каждого типа, то максимальная выручка: 204
+Если можно взять сколько угодно камней каждого типа, то максимальная выручка: 4000
+Если можно взять не более одного камня каждого типа, то максимальная выручка: 200
+Если можно взять сколько угодно камней каждого типа, то максимальная выручка: 200
+Если можно взять не более одного камня каждого типа, то максимальная выручка: 440
+Если можно взять сколько угодно камней каждого типа, то максимальная выручка: 680
+Если можно взять не более одного камня каждого типа, то максимальная выручка: 130
+Если можно взять сколько угодно камней каждого типа, то максимальная выручка: 160
+Если можно взять не более одного камня каждого типа, то максимальная выручка: 12
+Если можно взять сколько угодно камней каждого типа, то максимальная выручка: 30
+Если можно взять не более одного камня каждого типа, то максимальная выручка: 10
+Если можно взять сколько угодно камней каждого типа, то максимальная выручка: 30
+Если можно взять не более одного камня каждого типа, то максимальная выручка: 40
+Если можно взять сколько угодно камней каждого типа, то максимальная выручка: 40
 </system-out>
       </testcase>
     </testsuite>

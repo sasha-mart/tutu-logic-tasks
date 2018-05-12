@@ -4,7 +4,8 @@ namespace SashaMart\TutuLogicTasks;
 class Console
 {
     protected $commandsWhitelist = [
-        'hipsters' => 'SashaMart\TutuLogicTasks\HipstersTask'
+        'hipsters' => 'SashaMart\TutuLogicTasks\HipstersTask',
+        'hoard' => 'SashaMart\TutuLogicTasks\HoardTask',
     ];
 
     public function execute($args)

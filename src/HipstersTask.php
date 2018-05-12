@@ -17,11 +17,6 @@ class HipstersTask
         return $result;
     }
 
-    /**
-     * @param int $m
-     * @param int $n
-     * @return int
-     */
     public function distributeSmoothies(int $m, int $n): int
     {
         try {
