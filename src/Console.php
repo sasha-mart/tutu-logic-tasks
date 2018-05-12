@@ -6,6 +6,7 @@ class Console
     protected $commandsWhitelist = [
         'hipsters' => 'SashaMart\TutuLogicTasks\HipstersTask',
         'hoard' => 'SashaMart\TutuLogicTasks\HoardTask',
+        'angry-clown' => 'SashaMart\TutuLogicTasks\AngryClownTask'
     ];
 
     public function execute($args)
@@ -37,7 +38,7 @@ class Console
     {
         echo 'Available commands:' . PHP_EOL;
         foreach ($this->commandsWhitelist as $key => $value) {
-            echo 'pds-skeleton ' . $key . PHP_EOL;
+            echo $key . PHP_EOL;
         }
     }
 }

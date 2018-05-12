@@ -1,13 +1,15 @@
 
 
-Code Coverage Report:    
-  2018-05-12 09:59:21    
-                         
- Summary:                
-  Classes:  0.00% (0/3)  
-  Methods: 25.00% (3/12) 
-  Lines:   52.58% (51/97)
+Code Coverage Report:     
+  2018-05-12 14:37:38     
+                          
+ Summary:                 
+  Classes:  0.00% (0/4)   
+  Methods: 26.67% (4/15)  
+  Lines:   59.17% (71/120)
 
+\SashaMart\TutuLogicTasks::SashaMart\TutuLogicTasks\AngryClownTask
+  Methods:  33.33% ( 1/ 3)   Lines:  86.96% ( 20/ 23)
 \SashaMart\TutuLogicTasks::SashaMart\TutuLogicTasks\HipstersTask
   Methods:  33.33% ( 1/ 3)   Lines:  66.67% ( 12/ 18)
 \SashaMart\TutuLogicTasks::SashaMart\TutuLogicTasks\HoardTask
