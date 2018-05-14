@@ -34,7 +34,7 @@ class HipstersTask
     private function _setNumber(string $type): int
     {
         $s = readline("Сколько $type? ");
-        while (preg_match("/^[0-9]+$/", $s))
+        while (!preg_match("/^[0-9]+$/", $s))
             $s = readline("Количество $type должно быть целым числом больше нуля. Еще раз. Сколько $type? ");
 
         return (int)$s;
