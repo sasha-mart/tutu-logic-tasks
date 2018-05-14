@@ -2,6 +2,8 @@
 
 namespace SashaMart\TutuLogicTasks;
 
+use SebastianBergmann\CodeCoverage\Driver\Xdebug;
+
 class AngryClownTask
 {
     protected $string;
@@ -20,25 +22,23 @@ class AngryClownTask
 
     public function handleString(): void
     {
-        foreach ([')', '('] as $symbol) {
-            $positions = [];
-            $offset = 0;
-            $pos = mb_strpos($this->string, $symbol);
-            while ($pos !== false) {
-                if ($pos !== $offset || $pos === 0)
-                    $positions[] = [$offset, $pos + 1];
-                $offset = $pos + 1;
-                $pos = mb_strpos($this->string, $symbol, $offset);
-            }
-            $positions[] = [$offset, mb_strlen($this->string)];
-
-            $newString = '';
-            foreach ($positions as $positionLabels)
-                $newString .= mb_substr($this->string, $positionLabels[0], $positionLabels[1]);
-
-            $this->string = $newString;
+        $countSymbols = mb_strlen($this->string);
+        $key = 0;
+        while ($key < $countSymbols) {
+	        $symbol = mb_substr($this->string, $key, 1);
+        	if (in_array($symbol, [")", "("])) {
+        		$next = mb_substr($this->string, $key+1, 1);
+        		// строка до первого вхождения скобочки
+        		$str = mb_substr($this->string, 0, $key+1);
+        		// Вырезаем все остальные скобочки, которые идут подряд
+        		while (mb_strlen($this->string) >= $key && $next == $symbol) {
+        			$this->string = $str . mb_substr($this->string, $key+2);
+			        $next = mb_substr($this->string, $key+1, 1);
+		        }
+	        }
+	        $key++;
+	        $countSymbols = mb_strlen($this->string);
         }
-
     }
 
     private function _setString(): string

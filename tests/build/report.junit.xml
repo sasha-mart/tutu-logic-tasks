@@ -1,23 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="converter" tests="3" assertions="12" errors="0" failures="0" skipped="0" time="0.034261">
-    <testsuite name="SashaMart\TutuLogicTasks\AngryClownTest" file="/home/sasha/tutu/tutu-logic-tasks/tests/AngryClownTest.php" tests="1" assertions="3" errors="0" failures="0" skipped="0" time="0.009286">
-      <testcase name="testExecute" class="SashaMart\TutuLogicTasks\AngryClownTest" classname="SashaMart.TutuLogicTasks.AngryClownTest" file="/home/sasha/tutu/tutu-logic-tasks/tests/AngryClownTest.php" line="8" assertions="3" time="0.009286">
-        <system-out>Результат: Привет), я сегодня такой грустный :( Может пойдем гулять?:)
+  <testsuite name="converter" tests="3" assertions="12" errors="0" failures="0" skipped="0" time="0.024458">
+    <testsuite name="SashaMart\TutuLogicTasks\AngryClownTest" file="/home/sasha/self/tutu-logic-tasks/tests/AngryClownTest.php" tests="1" assertions="3" errors="0" failures="0" skipped="0" time="0.008569">
+      <testcase name="testExecute" class="SashaMart\TutuLogicTasks\AngryClownTest" classname="SashaMart.TutuLogicTasks.AngryClownTest" file="/home/sasha/self/tutu-logic-tasks/tests/AngryClownTest.php" line="8" assertions="3" time="0.008569">
+        <system-out>/home/sasha/self/tutu-logic-tasks/src/AngryClownTask.php:33:
+int(62)
+/home/sasha/self/tutu-logic-tasks/src/AngryClownTask.php:33:
+int(7)
+/home/sasha/self/tutu-logic-tasks/src/AngryClownTask.php:33:
+int(61)
+/home/sasha/self/tutu-logic-tasks/src/AngryClownTask.php:33:
+int(7)
+/home/sasha/self/tutu-logic-tasks/src/AngryClownTask.php:33:
+int(60)
+/home/sasha/self/tutu-logic-tasks/src/AngryClownTask.php:33:
+int(36)
+Результат: Привет), я сегодня такой грустный :( Может пойдем гулять?:)
+/home/sasha/self/tutu-logic-tasks/src/AngryClownTask.php:33:
+int(15)
+/home/sasha/self/tutu-logic-tasks/src/AngryClownTask.php:33:
+int(14)
 Результат: Плохо( Хорошо)
+/home/sasha/self/tutu-logic-tasks/src/AngryClownTask.php:33:
+int(4)
+/home/sasha/self/tutu-logic-tasks/src/AngryClownTask.php:33:
+int(1)
+/home/sasha/self/tutu-logic-tasks/src/AngryClownTask.php:33:
+int(3)
+/home/sasha/self/tutu-logic-tasks/src/AngryClownTask.php:33:
+int(1)
+/home/sasha/self/tutu-logic-tasks/src/AngryClownTask.php:33:
+int(2)
+/home/sasha/self/tutu-logic-tasks/src/AngryClownTask.php:33:
+int(1)
 Результат: )
 </system-out>
       </testcase>
     </testsuite>
-    <testsuite name="SashaMart\TutuLogicTasks\HipstersTest" file="/home/sasha/tutu/tutu-logic-tasks/tests/HipstersTest.php" tests="1" assertions="2" errors="0" failures="0" skipped="0" time="0.003062">
-      <testcase name="testDistributeSmoothies" class="SashaMart\TutuLogicTasks\HipstersTest" classname="SashaMart.TutuLogicTasks.HipstersTest" file="/home/sasha/tutu/tutu-logic-tasks/tests/HipstersTest.php" line="8" assertions="2" time="0.003062">
+    <testsuite name="SashaMart\TutuLogicTasks\HipstersTest" file="/home/sasha/self/tutu-logic-tasks/tests/HipstersTest.php" tests="1" assertions="2" errors="0" failures="0" skipped="0" time="0.001958">
+      <testcase name="testDistributeSmoothies" class="SashaMart\TutuLogicTasks\HipstersTest" classname="SashaMart.TutuLogicTasks.HipstersTest" file="/home/sasha/self/tutu-logic-tasks/tests/HipstersTest.php" line="8" assertions="2" time="0.001958">
         <system-out>Результат: по 2 смузи на одного хипстера.
 Смузи меньше, чем хипстеров. Придется выбросить всё, чтобы никого не обидеть.
 </system-out>
       </testcase>
     </testsuite>
-    <testsuite name="SashaMart\TutuLogicTasks\HoardTest" file="/home/sasha/tutu/tutu-logic-tasks/tests/HoardTest.php" tests="1" assertions="7" errors="0" failures="0" skipped="0" time="0.021913">
-      <testcase name="testExecute" class="SashaMart\TutuLogicTasks\HoardTest" classname="SashaMart.TutuLogicTasks.HoardTest" file="/home/sasha/tutu/tutu-logic-tasks/tests/HoardTest.php" line="8" assertions="7" time="0.021913">
+    <testsuite name="SashaMart\TutuLogicTasks\HoardTest" file="/home/sasha/self/tutu-logic-tasks/tests/HoardTest.php" tests="1" assertions="7" errors="0" failures="0" skipped="0" time="0.013931">
+      <testcase name="testExecute" class="SashaMart\TutuLogicTasks\HoardTest" classname="SashaMart.TutuLogicTasks.HoardTest" file="/home/sasha/self/tutu-logic-tasks/tests/HoardTest.php" line="8" assertions="7" time="0.013931">
         <system-out>Если можно взять не более одного камня каждого типа, то максимальная выручка: 204
 Если можно взять сколько угодно камней каждого типа, то максимальная выручка: 4000
 Если можно взять не более одного камня каждого типа, то максимальная выручка: 200
